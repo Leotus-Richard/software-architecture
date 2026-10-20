@@ -1,0 +1,17 @@
+{
+  "name": "software-architecture",
+  "version": "0.1.0",
+  "description": "Design domain models, module boundaries, TypeScript contracts, and decision-focused prototypes.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/software-architecture",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Software Architecture",
+    "shortDescription": "Design domain models, module boundaries, TypeScript contracts",
+    "developerName": "Leotus-Richard",
+    "category": "Development"
+  }
+}

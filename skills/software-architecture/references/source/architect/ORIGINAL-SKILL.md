@@ -1,0 +1,50 @@
+> Archived source reference, repackaged by Leotus-Richard on 2026-10-20. This is not an active skill or execution policy. Use the domain hub for current task scope and available capabilities; host commands, integrations, local-only rules, identity rules, and publishing steps below are historical examples. Modifications: discovery filename and local links normalized where needed, machine paths replaced where present; source substance retained.
+
+---
+name: architect
+description: "Design caller usage, types and module boundaries for a nontrivial local change; implement only when explicitly in implementation scope."
+metadata:
+  version: "1.0.0"
+  profile: "local-task-toolkit"
+  invocation: "task-specific"
+  integration-status: "portable-instructions-host-untested"
+---
+
+# Architect
+
+## Scope
+
+Read `references/local-execution-contract.md` at task start. This skill is task-specific and local-only. Do not activate remote integrations, persistent modes, hooks or unrelated implementation.
+
+## Workflow
+
+1. Ground current behavior with how-it-works; consult why only when supplied local history affects ownership or layering.
+2. Use the bundled runner prompt and red-flags checklist to produce at least two structurally different design candidates.
+3. Use arena when explicitly authorized; otherwise compare sequential local sketches and label the absence of independent model judgment.
+4. Choose by invariants, interface compression and maintainability. Record the rationale using the bundled template.
+5. In planning mode, stop at the design. In implementation mode, fill the selected sketch and surface deviations rather than adding unplanned exceptions.
+6. If repeated deviations invalidate the shape, re-ground, simplify and redesign within a bounded attempt limit.
+
+## Default output
+
+Caller sketch, type/module design, alternatives, rationale and verification or implementation boundary.
+
+## Failure boundary
+
+Report the missing input or capability; do not fabricate evidence or broaden the task.
+
+## Conditional skill dependencies
+
+- `how-it-works`: read the installed sibling skill only when its named discipline is required by the workflow.
+- `why`: read the installed sibling skill only when its named discipline is required by the workflow.
+- `arena`: read the installed sibling skill only when its named discipline is required by the workflow.
+
+Use the host's actual skill loader, or read the current domain hub (historical dependency syntax removed) from this installed directory. Do not guess host tool names. Install the dependency closure shown in manifest.json if these siblings are absent.
+
+## Upstream resources
+
+The full original skill and its resources are preserved under `references/upstream/`. Read `references/upstream/ORIGINAL-SKILL.md` for detailed rubrics, templates and examples when its branch is relevant. Resolve its relative resource paths from that directory. Its tool names, model IDs, publication steps, transcript paths and persistent modes are source-specific examples, not permission to execute them. Follow this hub and the local execution contract when those instructions conflict.
+
+## Provenance
+
+Adapted from [pstack:architect](https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/architect/SKILL.md). The original MIT notice is bundled. This is a local-only adaptation, not an endorsement or a claim of native host support.

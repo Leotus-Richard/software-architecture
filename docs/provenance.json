@@ -1,0 +1,664 @@
+{
+  "intakeVersion": "1.3.0",
+  "intakeArchiveSha256": "03bfd3c788e224247fa1fd14f5d614961499e0ccf740df2d4f3ec2cfa75bd6ad",
+  "prepared": "2026-10-20",
+  "activeSkillCount": 1,
+  "sourceBundleCount": 10,
+  "sources": [
+    {
+      "id": "architect",
+      "source": "pstack:architect",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/architect/SKILL.md",
+      "sourceSha256": "31f8e97a52bfa5432edd61f68ade2a8632ef0bacbc2d2a6802d7a0e6821944ac",
+      "dependencies": [
+        "how-it-works",
+        "why",
+        "arena"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/architect",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "codebase-design",
+      "source": "mattpocock:codebase-design",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/codebase-design/SKILL.md",
+      "sourceSha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/codebase-design",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "domain-modeling",
+      "source": "mattpocock:domain-modeling",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md",
+      "sourceSha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/domain-modeling",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "prototype",
+      "source": "mattpocock:prototype",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/prototype/SKILL.md",
+      "sourceSha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+      "dependencies": [
+        "commit-workflow"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/prototype",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "typescript-best-practices",
+      "source": "pstack:typescript-best-practices",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/typescript-best-practices/SKILL.md",
+      "sourceSha256": "28f9e61710e205f6f3c5476f333483cff0e988f6a5b639e2faad536344b40c5e",
+      "dependencies": [
+        "principle-type-system-discipline",
+        "principle-boundary-discipline"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/typescript-best-practices",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "principle-boundary-discipline",
+      "source": "pstack:principle-boundary-discipline",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-boundary-discipline/SKILL.md",
+      "sourceSha256": "62ac2862c2caa22dd14531f51c9c6bb445ceb198ca98a687e25b4d47c1f10a28",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-boundary-discipline",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "principle-migrate-callers-then-delete-legacy-apis",
+      "source": "pstack:principle-migrate-callers-then-delete-legacy-apis",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "sourceSha256": "09978915a4a11990cf0a9a02d9c08cc59e0b7a04c5c24b83aa560fbe4146f75b",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "principle-model-the-domain",
+      "source": "pstack:principle-model-the-domain",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-model-the-domain/SKILL.md",
+      "sourceSha256": "52c0d85e0c3827c41c18299b642657d7b47eaf77b7b31609e42e0df42b84c75f",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-model-the-domain",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "principle-separate-before-serializing-shared-state",
+      "source": "pstack:principle-separate-before-serializing-shared-state",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "sourceSha256": "05294b40448e927c5da1c7b6f5c6b9fed3744637e3833d2d948b9154a9dd00bb",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-separate-before-serializing-shared-state",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "principle-type-system-discipline",
+      "source": "pstack:principle-type-system-discipline",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/principle-type-system-discipline/SKILL.md",
+      "sourceSha256": "2e492cef34bb25a20b9115df61f9ef3a9837e3fda144ffda8079e5f45a1b72e8",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/principle-type-system-discipline",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    }
+  ],
+  "files": [
+    {
+      "sourcePath": "skills/architect/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/architect/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/architect/SKILL.md",
+      "sourceSha256": "f0c3e534c2e247dd8a9fac32801df320cec493bce21fe9b47bf284990f716207",
+      "packagePath": "skills/software-architecture/references/source/architect/ORIGINAL-SKILL.md",
+      "packageSha256": "100b57856df5e0d6b2e7670c0f617df97ef34cbedb7470375247ea51e952d3b1",
+      "modifications": [
+        "archive-modification-notice",
+        "sibling-loader-example-removed"
+      ]
+    },
+    {
+      "sourcePath": "skills/architect/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/architect/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "31f8e97a52bfa5432edd61f68ade2a8632ef0bacbc2d2a6802d7a0e6821944ac",
+      "packagePath": "skills/software-architecture/references/source/architect/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "5afa4bd43cecd736a68d0af1fc2b13e47b1d6c4ae6461ab43d9ba47f49cc7ded",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/design-red-flags.md",
+      "sourceSha256": "d0e639e4cc588ec865f930d3a4111faad60987ae36925917e319d7ceca7c69ce",
+      "packagePath": "skills/software-architecture/references/source/architect/references/upstream/references/design-red-flags.md",
+      "packageSha256": "d0c6c9df7c3b4db35d3c19f540b860506e11e950bd081bc2a76749de8d0e2d12",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/rationale-template.md",
+      "sourceSha256": "0cedfccdc7b47fc881febd5a8293eecbc542c20f8df825639904a8102d2eb5d3",
+      "packagePath": "skills/software-architecture/references/source/architect/references/upstream/references/rationale-template.md",
+      "packageSha256": "1848f6e86090dd142e40802d3123a9977275564dbfc9ed3d9da87d13cbed88a6",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/runner-prompt.md",
+      "sourceSha256": "21dd5314aab778c5007228027a4591d97693fbec6ab86524037772b63f40948e",
+      "packagePath": "skills/software-architecture/references/source/architect/references/upstream/references/runner-prompt.md",
+      "packageSha256": "3a85eac89b9c20b3461c4bc5e1607a728cd77e42fbe535009b56bf47f1211d6f",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/codebase-design/SKILL.md",
+      "sourceSha256": "236e4b99915cc16013e20cc2499b3f3ca684edeb11cad78a7d72ba21486a121c",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/ORIGINAL-SKILL.md",
+      "packageSha256": "8d1cf9673479ad8dcbd70f3a27e515fa7f7a180cf00d95d57ae8e179361c131c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/DEEPENING.md",
+      "sourceSha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/DEEPENING.md",
+      "packageSha256": "e48b0fc3ef9ceb165cdbfb6cd484a56820eb8ac6c437bb8a3268d164db62a252",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "sourceSha256": "52b52e75655a27aea59c6966b410bac82448968ad46ef1ebb9f07c274e3ae010",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "packageSha256": "116aa871c17c1434a97e6ad82b99886efa39f6670dbbae3a7b478482288f1cb5",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "b860e7edeea1c914ce1de873d1d8189035004958eb0398adbc2429fb2ff4179a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/agents/openai.yaml",
+      "sourceSha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f",
+      "packagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/agents/openai.yaml",
+      "packageSha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/domain-modeling/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/domain-modeling/SKILL.md",
+      "sourceSha256": "73a3cbb87e496b848edddb5f4c7332de43d955085e91d9764173936c5319e7af",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/ORIGINAL-SKILL.md",
+      "packageSha256": "9f47c9cfc158bbb72ef8a0a006531cf82d738d0b6a7cb7c4d0fabad7db9337e5",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/ADR-FORMAT.md",
+      "sourceSha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/ADR-FORMAT.md",
+      "packageSha256": "3a0b2844d641224a72402f529ef231e35125844013a4f70db5f8b497331cd2bc",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "sourceSha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "packageSha256": "da44f954dd0df63db9b3d0e900296bc6f56c5833168860b6fd66a5677bdf113f",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "1734a76275d3c4d1841643713c5209c153d5d1313a34b5795ecd6b0fe679550b",
+      "modifications": [
+        "archive-modification-notice",
+        "relative-link-normalized"
+      ]
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/agents/openai.yaml",
+      "sourceSha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "packagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/agents/openai.yaml",
+      "packageSha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/prototype/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/software-architecture/references/source/prototype/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/prototype/SKILL.md",
+      "sourceSha256": "8e8e39d068e952d20db7d54c4317a7278d0275975e3b564db73618dadf5ba2b7",
+      "packagePath": "skills/software-architecture/references/source/prototype/ORIGINAL-SKILL.md",
+      "packageSha256": "93249d67263e357fe01e51d9ffabfce6a3788931278e4a842728a71582995409",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/prototype/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/prototype/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/LOGIC.md",
+      "sourceSha256": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9",
+      "packagePath": "skills/software-architecture/references/source/prototype/references/upstream/LOGIC.md",
+      "packageSha256": "3d33bc381f9fd827e2a470ce46847f7a6b57ab68283d324be0a8dd0bda1fab5d",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+      "packagePath": "skills/software-architecture/references/source/prototype/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "6e4842a2d4f58ea6202e0cf8c773b9cc95e1a1fc688fe19aafde0dec8886e992",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/UI.md",
+      "sourceSha256": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3",
+      "packagePath": "skills/software-architecture/references/source/prototype/references/upstream/UI.md",
+      "packageSha256": "e6523384de6357376db14344511b69d053bb57b7deb7c9add06d2fcf3901979a",
+      "modifications": [
+        "archive-modification-notice",
+        "unavailable-link-unlinked"
+      ]
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/agents/openai.yaml",
+      "sourceSha256": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc",
+      "packagePath": "skills/software-architecture/references/source/prototype/references/upstream/agents/openai.yaml",
+      "packageSha256": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/typescript-best-practices/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/SKILL.md",
+      "sourceSha256": "d0cc7baebe9e35f52fd4f4ceca9589f040dce1ce0ceb627d604101b315efd199",
+      "packagePath": "skills/software-architecture/references/source/typescript-best-practices/ORIGINAL-SKILL.md",
+      "packageSha256": "97d148b41ab3cfcd1c5edd39382c9b1ee2e89c17041777d204942b42930a7513",
+      "modifications": [
+        "archive-modification-notice",
+        "sibling-loader-example-removed"
+      ]
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/typescript-best-practices/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "28f9e61710e205f6f3c5476f333483cff0e988f6a5b639e2faad536344b40c5e",
+      "packagePath": "skills/software-architecture/references/source/typescript-best-practices/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "3333a0de6443df2cbad2dbc2c5dc163b6f75e3f9130c45032f83e363a98e8ad6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/upstream/references/patterns.md",
+      "sourceSha256": "faa1362055374452efccac1b629677c61acfb0bcc6c4e3311836b5715638ee18",
+      "packagePath": "skills/software-architecture/references/source/typescript-best-practices/references/upstream/references/patterns.md",
+      "packageSha256": "4082fd67cc893c5a3ef120111a20b66989789cdbc542fac724266024a07256e0",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/principle-boundary-discipline/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/SKILL.md",
+      "sourceSha256": "62005a165990a4fc6cc995cb5c446056888d902f1a7ba7f946f4460171ee30ad",
+      "packagePath": "skills/software-architecture/references/source/principle-boundary-discipline/ORIGINAL-SKILL.md",
+      "packageSha256": "efcebe31f2f8b0e42803fdcbefdc2771d44398ccb43f30474567d673fbaeb0c3",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/principle-boundary-discipline/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "62ac2862c2caa22dd14531f51c9c6bb445ceb198ca98a687e25b4d47c1f10a28",
+      "packagePath": "skills/software-architecture/references/source/principle-boundary-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "d62042eac6b4259e04a3d880bcda2ccf7624418b87522ab3833acc5445c1ba57",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "sourceSha256": "e92579901ef124ba77de6dc211f413d7dca65f5484ad0658d2360bbe7183cdba",
+      "packagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/ORIGINAL-SKILL.md",
+      "packageSha256": "405fa5d9ce5770c5b20122968c0993198b5576d2aef176f9186e144f6f70e1a4",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "09978915a4a11990cf0a9a02d9c08cc59e0b7a04c5c24b83aa560fbe4146f75b",
+      "packagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "695b6862931010c192a18bfe5b5864bed0ee2a8244ef6a4516ebe0079402735d",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/principle-model-the-domain/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/SKILL.md",
+      "sourceSha256": "ffd428b1e183bff258d8f29edc18ff98d06dbb1a61ecb2c9a5247a6af2e5ead6",
+      "packagePath": "skills/software-architecture/references/source/principle-model-the-domain/ORIGINAL-SKILL.md",
+      "packageSha256": "26e6f9d5d5e88a67e50f0c0297ffc4d7840d67fb3509cd5cef1cfe3103574d59",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/principle-model-the-domain/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "52c0d85e0c3827c41c18299b642657d7b47eaf77b7b31609e42e0df42b84c75f",
+      "packagePath": "skills/software-architecture/references/source/principle-model-the-domain/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "909cdb75faf17cab59779c3d1f3db9dc4f383f1a6cc482879edf073b1125d54d",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "sourceSha256": "18ef3daa2d41ffa3b48b0d68ea8649d5b17bcaf42da0d2e13cba03801bb4ccb5",
+      "packagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/ORIGINAL-SKILL.md",
+      "packageSha256": "264037ce39c123a7d40bdc622d6a7c84ffaffba4ff4d5a51f79874d1dec76770",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "05294b40448e927c5da1c7b6f5c6b9fed3744637e3833d2d948b9154a9dd00bb",
+      "packagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "dc6e879aa94675c594a3fb1493af2a8cace85b9dfa7a9642da2715e542f54239",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/software-architecture/references/source/principle-type-system-discipline/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/SKILL.md",
+      "sourceSha256": "b01d33d5f4c5c0ff3afcc26a72a9858e74a37b63cedfbcdc346340fba7eaffa9",
+      "packagePath": "skills/software-architecture/references/source/principle-type-system-discipline/ORIGINAL-SKILL.md",
+      "packageSha256": "728c4a53b240e3b5840c51c5704ef64ca4050e10b752b1239cd8e599a897b021",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/software-architecture/references/source/principle-type-system-discipline/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "2e492cef34bb25a20b9115df61f9ef3a9837e3fda144ffda8079e5f45a1b72e8",
+      "packagePath": "skills/software-architecture/references/source/principle-type-system-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "4dd646c4c7b78cfadbcc98e995c66dd62bcae539862eb8280dbc72588b7ed391",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    }
+  ],
+  "referenceRepairs": [
+    {
+      "source": "skills/architect/references/upstream/references/rationale-template.md",
+      "unavailableTarget": "../SKILL.md#phase-a-ground-the-problem",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/architect/references/upstream/references/rationale-template.md",
+      "unavailableTarget": "../../arena/SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/codebase-design/references/upstream/DEEPENING.md",
+      "unavailableTarget": "SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "unavailableTarget": "SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "unavailableTarget": "SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "unavailableTarget": "./src/ordering/GLOSSARY.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "unavailableTarget": "./src/billing/GLOSSARY.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "unavailableTarget": "./src/fulfillment/GLOSSARY.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/prototype/references/upstream/LOGIC.md",
+      "unavailableTarget": "SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    },
+    {
+      "source": "skills/prototype/references/upstream/UI.md",
+      "unavailableTarget": "SKILL.md",
+      "disposition": "plain-text historical reference; no dependency"
+    }
+  ],
+  "nativeHostBehavior": "unverified",
+  "nativeHelpers": "archived source only; not enabled"
+}
