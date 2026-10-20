@@ -20,33 +20,33 @@ external changes follow the current request and host permissions.
 
 - **Domain model:** resolve ambiguous terms through concrete scenarios. Separate
   domain meaning from storage/API representations; make invalid states explicit.
-  Use the bundled [glossary](references/source/domain-modeling/references/upstream/GLOSSARY-FORMAT.md)
-  and [ADR format](references/source/domain-modeling/references/upstream/ADR-FORMAT.md)
+  Use the bundled [glossary](references/r/019.md)
+  and [ADR format](references/r/018.md)
   when the requested artifact benefits from them. Unknown agreement stays unresolved.
 - **Module/interface:** sketch caller usage first, then identify the knowledge and
   complexity the module should own. Prefer a small coherent interface over layers
   that merely forward the same methods. Compare genuinely different designs when
   the decision is consequential; do not manufacture alternatives for a trivial edit.
-  The [deepening](references/source/codebase-design/references/upstream/DEEPENING.md)
-  and [alternative design](references/source/codebase-design/references/upstream/DESIGN-IT-TWICE.md)
+  The [deepening](references/r/011.md)
+  and [alternative design](references/r/012.md)
   references provide optional techniques.
 - **TypeScript:** derive types from authoritative schemas, parse unknown data at
   boundaries, model variants explicitly, and handle them exhaustively. Use existing
   compiler/schema tooling; do not introduce a dependency to match an example.
-  Consult [patterns](references/source/typescript-best-practices/references/upstream/references/patterns.md)
+  Consult [patterns](references/r/053.md)
   for a relevant type problem.
 - **Prototype:** name the decision it will test. Use an owned scratch artifact with
   simple startup and visible relevant state. Preserve real constraints while omitting
-  polish unrelated to the question. Read [logic](references/source/prototype/references/upstream/LOGIC.md)
-  or [UI](references/source/prototype/references/upstream/UI.md) guidance as applicable.
+  polish unrelated to the question. Read [logic](references/r/045.md)
+  or [UI](references/r/047.md) guidance as applicable.
   Exercise the disputed cases and state its cleanup or promotion boundary.
 
 ## Choose and verify
 
 Compare options against invariants, interface complexity, migration cost, and actual
 evidence. Record why a candidate was selected and what would invalidate the choice.
-Use [design red flags](references/source/architect/references/upstream/references/design-red-flags.md)
-and the [rationale template](references/source/architect/references/upstream/references/rationale-template.md)
+Use [design red flags](references/r/005.md)
+and the [rationale template](references/r/006.md)
 only where they improve the result. Sequential self-review is not independent review.
 
 For an authorized migration, move real callers, verify behavior, and retire obsolete

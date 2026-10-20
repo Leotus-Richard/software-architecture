@@ -1,0 +1,270 @@
+{
+  "formatVersion": 1,
+  "resources": [
+    {
+      "sourcePath": "skills/architect/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/001.license"
+    },
+    {
+      "sourcePath": "skills/architect/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/002.md"
+    },
+    {
+      "sourcePath": "skills/architect/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/003.md"
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/004.md"
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/design-red-flags.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/references/upstream/references/design-red-flags.md",
+      "packagePath": "skills/software-architecture/references/r/005.md"
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/rationale-template.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/references/upstream/references/rationale-template.md",
+      "packagePath": "skills/software-architecture/references/r/006.md"
+    },
+    {
+      "sourcePath": "skills/architect/references/upstream/references/runner-prompt.md",
+      "previousPackagePath": "skills/software-architecture/references/source/architect/references/upstream/references/runner-prompt.md",
+      "packagePath": "skills/software-architecture/references/r/007.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/008.license"
+    },
+    {
+      "sourcePath": "skills/codebase-design/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/009.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/010.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/DEEPENING.md",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/DEEPENING.md",
+      "packagePath": "skills/software-architecture/references/r/011.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/DESIGN-IT-TWICE.md",
+      "packagePath": "skills/software-architecture/references/r/012.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/013.md"
+    },
+    {
+      "sourcePath": "skills/codebase-design/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/software-architecture/references/source/codebase-design/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/software-architecture/references/r/014.yaml"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/015.license"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/016.md"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/017.md"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/ADR-FORMAT.md",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/ADR-FORMAT.md",
+      "packagePath": "skills/software-architecture/references/r/018.md"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/GLOSSARY-FORMAT.md",
+      "packagePath": "skills/software-architecture/references/r/019.md"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/020.md"
+    },
+    {
+      "sourcePath": "skills/domain-modeling/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/software-architecture/references/source/domain-modeling/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/software-architecture/references/r/021.yaml"
+    },
+    {
+      "sourcePath": "skills/prototype/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/042.license"
+    },
+    {
+      "sourcePath": "skills/prototype/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/043.md"
+    },
+    {
+      "sourcePath": "skills/prototype/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/044.md"
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/LOGIC.md",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/references/upstream/LOGIC.md",
+      "packagePath": "skills/software-architecture/references/r/045.md"
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/046.md"
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/UI.md",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/references/upstream/UI.md",
+      "packagePath": "skills/software-architecture/references/r/047.md"
+    },
+    {
+      "sourcePath": "skills/prototype/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/software-architecture/references/source/prototype/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/software-architecture/references/r/048.yaml"
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/typescript-best-practices/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/049.license"
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/typescript-best-practices/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/050.md"
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/typescript-best-practices/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/051.md"
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/typescript-best-practices/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/052.md"
+    },
+    {
+      "sourcePath": "skills/typescript-best-practices/references/upstream/references/patterns.md",
+      "previousPackagePath": "skills/software-architecture/references/source/typescript-best-practices/references/upstream/references/patterns.md",
+      "packagePath": "skills/software-architecture/references/r/053.md"
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-boundary-discipline/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/022.license"
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-boundary-discipline/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/023.md"
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-boundary-discipline/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/024.md"
+    },
+    {
+      "sourcePath": "skills/principle-boundary-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-boundary-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/025.md"
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/026.license"
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/027.md"
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/028.md"
+    },
+    {
+      "sourcePath": "skills/principle-migrate-callers-then-delete-legacy-apis/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-migrate-callers-then-delete-legacy-apis/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/029.md"
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-model-the-domain/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/030.license"
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-model-the-domain/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/031.md"
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-model-the-domain/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/032.md"
+    },
+    {
+      "sourcePath": "skills/principle-model-the-domain/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-model-the-domain/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/033.md"
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/034.license"
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/035.md"
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/036.md"
+    },
+    {
+      "sourcePath": "skills/principle-separate-before-serializing-shared-state/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-separate-before-serializing-shared-state/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/037.md"
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/LICENSE",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-type-system-discipline/LICENSE",
+      "packagePath": "skills/software-architecture/references/r/038.license"
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-type-system-discipline/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/039.md"
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/references/local-execution-contract.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-type-system-discipline/references/local-execution-contract.md",
+      "packagePath": "skills/software-architecture/references/r/040.md"
+    },
+    {
+      "sourcePath": "skills/principle-type-system-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/software-architecture/references/source/principle-type-system-discipline/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/software-architecture/references/r/041.md"
+    }
+  ]
+}
